@@ -7,18 +7,17 @@ export const authConfig = {
   },
   callbacks: {
     authorized({ auth, request: { nextUrl } }): any {
-      //
       const isLoggedIn = !!auth?.user;
       const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
       if (isOnDashboard) {
         if (isLoggedIn) {
-          return true as any; // 把沒有認證的使用整重新定向到 login page
+          return true; // 把沒有認證的使用整重新定向到 login page
         }
-        return false as any;
+        return false;
       } else if (isLoggedIn) {
         return Response.redirect(new URL('/dashboard', nextUrl));
       }
-      return true as any;
+      return true;
     },
   },
   providers: [Credentials({})],

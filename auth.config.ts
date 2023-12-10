@@ -5,7 +5,7 @@ export const authConfig = {
   pages: {
     signIn: '/login',
   },
-  secret: '28ce05c6fc7aa4feb2661adbb98892b61a99cf0725928c14bdfed1ed70d88d84',
+  secret: '',
   callbacks: {
     authorized({ auth, request: { nextUrl } }): any {
       const isLoggedIn = !!auth?.user;

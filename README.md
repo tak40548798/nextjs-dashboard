@@ -15,4 +15,4 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 問題紀錄
 
-在 vercel 上部屬失敗的話，要記得 在 auth.config.ts 裡面的 authConfig 加上 secret 
+在 vercel 上部屬失敗的話，要記得 在 auth.config.ts 裡面的 authConfig 加上 secret ，官方在教學中並沒有提到這個問題，需要你在 vercel 管理頁上看 log 才會知道部屬失敗的原因

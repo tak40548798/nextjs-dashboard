@@ -11,3 +11,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 密碼：123456
 
 補足了官方教學所缺失的 customers 頁面
+
+
+問題紀錄
+
+在 vercel 上部屬失敗的話，要記得 在 auth.config.ts 裡面的 authConfig 加上 secret 

@@ -1,9 +1,3 @@
-## Next.js App Router Course - Starter
-
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
-
 連結：https://nextjs-dashboard-tak40548798.vercel.app/
 
 帳號：user@nextmail.com
@@ -11,6 +5,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 密碼：123456
 
 補足了官方教學所缺失的 customers 頁面
+
+
 
 
 問題紀錄
